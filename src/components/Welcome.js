@@ -11,3 +11,4 @@ export default Welcome
 
 /*in case of class components we have to use this. before props.
 that is the main difference compared to functional components*/
+
