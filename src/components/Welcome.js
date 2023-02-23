@@ -7,5 +7,7 @@ class Welcome extends Component {
 }
 export default Welcome
 
-//in case of class components we have to use this. before props.
-//that is the main difference compared to functional components
+//TUTORIAL 6
+
+/*in case of class components we have to use this. before props.
+that is the main difference compared to functional components*/
