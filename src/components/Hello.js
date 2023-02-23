@@ -1,7 +1,3 @@
-// without using jsx
-//not recommended as you can clearly see its very lengthy and tricky
-
-
 import React from "react";
 const Hello = () => {
     return React.createElement(
