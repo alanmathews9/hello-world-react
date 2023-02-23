@@ -11,3 +11,9 @@ const Hello = () => {
     )
 }
 export default Hello
+
+//TUTORIAL 8
+
+/*without using jsx
+not recommended as you can clearly see its very lengthy and tricky*/
+

@@ -22,3 +22,10 @@ class Message extends Component {
     }
 }
 export default Message
+
+//TUTORIAL 10
+
+/*over here we're trying to change text when a button is clicked
+however to implement this if we use props then it wont work
+as props are immutable
+so we use state as shown below, it provides the ability to change the text*/
