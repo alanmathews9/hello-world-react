@@ -9,8 +9,8 @@ import ChildComponent from './ChildComponent'
         }
         this.greetParent = this.greetParent.bind(this)
     }
-     greetParent() { 
-         alert(`Hello ${this.state.parentName}`)
+     greetParent(childName) { 
+         alert(`Hello ${this.state.parentName} from ${childName}`)
     }
 
     render() {
@@ -37,6 +37,9 @@ which alerts browser with message
 note that childcomponent.js needs to imported 
 and also the since greetparent is used for a function outside, we need to bind as shown inside constructor
 
-
 now go to child component . js for the remaingin comments
+*/
+
+/*using arrow function we can also pass parameters from child to parent
+we have added a parameter childName on the greetparent method which is passed from child component.js
 */
