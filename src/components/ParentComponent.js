@@ -16,7 +16,7 @@ import ChildComponent from './ChildComponent'
     render() {
         return (
             <div>
-                <ChildComponent greetHandler={this.greetParent} />
+                <ChildComponent greetHandler = {this.greetParent} />
             </div>
                 
         )
