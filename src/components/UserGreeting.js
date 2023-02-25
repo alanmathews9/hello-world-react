@@ -44,3 +44,8 @@ export default UserGreeting
 
 //TUTORIAL 16
 
+/*the goal here is to display welcome alan if isLoggedIn is true
+and Welcome guest if it is false
+
+
+there are 4 ways of doing it, comments are mentioned before the code block*/
