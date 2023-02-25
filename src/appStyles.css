@@ -1,3 +1,13 @@
 .error{
     color: red;
 }
+
+/*this is normal css file and it is called in app.js
+and we have also added a line in inline.js which is commented out
+refer inline.js
+so when we uncomment it what happens is the code is as expected because
+when we dont use css modules the css file can be accessed to the parent component app.js
+and also the child component like inline.js 
+just by using its classname, this may leasd to css conflicts 
+hence we use css modules
+refer appStyles.modules.css*/

@@ -1,3 +1,12 @@
 .success{
     color: green;
 }
+
+/*
+read the comments under appStyle.css if you havent
+this is a module file and here the file is imported to app.js
+and it runs on parent component properly, however if we copy the code to a child component 
+it causes an error cuz when we use modules it is not accessed globally to all child files
+this advanthage helps remove css conflicts
+also not since it is css modules the it is imported into app.js differently that a normal css file
+*/
