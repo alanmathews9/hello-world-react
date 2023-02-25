@@ -6,7 +6,9 @@ const heading = {
 function Inline() {
 
   return (
-    <div>
+      <div>
+          {/*<h1 className='error'>error</h1>*/}
+          {/*<h1 className={styles.success}>success</h1>*/}
           <h1 style={heading}>Inline</h1>
     </div>
   )
