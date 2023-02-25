@@ -11,3 +11,6 @@ function Person({ person }) {
 }
 export default Person
 
+//TUTORIAL 17
+
+/*DIDNT UNDERSTAND THOROUGHLY REFER VIDEO AGAIN */
