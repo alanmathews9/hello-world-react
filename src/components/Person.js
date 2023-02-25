@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Person(person) {
+function Person({ person }) {
   return (
     <div>
           <h2>
@@ -9,8 +9,5 @@ function Person(person) {
     </div>
   )
 }
-
 export default Person
 
-//TUTORIAL 17
- */
